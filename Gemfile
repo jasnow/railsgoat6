@@ -2,9 +2,9 @@
 source "https://rubygems.org"
 
 #don't upgrade
-gem "rails", "6.0.0"
+gem "rails", "6.0.6"
 
-ruby "2.7.0"
+ruby "2.7.7"
 
 gem "aruba"
 gem "bcrypt"
@@ -29,6 +29,9 @@ gem "turbolinks"
 gem "uglifier"
 gem "unicorn"
 
+gem 'net-http'
+gem 'uri'
+
 # Add SMTP server support using MailCatcher
 # NOTE: https://github.com/sj26/mailcatcher#bundler
 # gem 'mailcatcher'
@@ -51,7 +54,7 @@ group :development, :test, :mysql do
   gem "capybara"
   gem "database_cleaner"
   gem "launchy"
-  gem "poltergeist"
+  gem "cuprite"
   gem "rspec-rails", '4.0.0.beta2' # 4/26/2019: LOCKED DOWN
   gem "test-unit"
 end

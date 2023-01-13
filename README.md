@@ -73,7 +73,7 @@ Note: if your container exits with an error, it may be because a server is alrea
 ```
 A server is already running. Check /myapp/tmp/pids/server.pid.
 => Booting Thin
-=> Rails 6.0.0 application starting in development on
+=> Rails 6.0.6 application starting in development on
 http://0.0.0.0:3000
 => Run `rails server -h` for more startup options
 => Ctrl-C to shutdown server
