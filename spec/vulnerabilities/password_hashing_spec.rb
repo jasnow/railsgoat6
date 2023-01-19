@@ -6,7 +6,7 @@ feature "improper password hashing" do
 
   before do
     UserFixture.reset_all_users
-    pending unless verifying_fixed?
+    skip unless verifying_fixed?
   end
 
   scenario "with just md5\nTutorial: https://github.com/OWASP/railsgoat/wiki/A6-Sensitive-Data-Exposure-Insecure-Password-Storage" do
